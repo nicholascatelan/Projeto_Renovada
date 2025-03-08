@@ -1,0 +1,315 @@
+#time {
+    min-height: 100vh;
+}
+
+#dishes{
+    display: inline-block;
+    border-color:5px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.dish, .dish2, .dish3 {
+    display: flex;
+    align-items: center;
+    height: 350px;
+    border-radius: 52px;
+    margin-top: 10%;
+    justify-content: center;
+    width: 1200px;
+}
+
+.dish {
+    background-color: #04a3e4;
+}
+.dish2 {
+    background-color: #f57710;
+}
+.dish3 {
+    background-color: #90d270;
+}   
+
+#dishes img {
+    margin-left: 255px;
+}
+
+
+.posicao {
+    padding: 20px;
+}
+
+.horario1 {
+    width: 500px;
+    padding: 15px;
+    border-radius: 52px;
+    margin-right: 25px;
+    justify-content: center;
+}
+
+.dish-title{
+    padding: 25px;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.descricao1, .descricao2, .descricao3 {
+    flex-direction: column;
+    font-size: 25px;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.descricao1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.descricao2 {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.descricao3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.redes-sociais {
+
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.redes-sociais a i {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    font-size: 26px;
+    transition: 0.3s;
+}
+.redes-sociais a i:hover {
+    color: #c9b58a;
+    border: 1px solid #030000;
+    transform: scale(1.1);
+    background-color: #000000;
+}
+
+
+@media screen and (max-width: 1170px) {
+    #dishes {
+        flex-wrap: wrap;
+        justify-content: center;
+        display:flex;
+        align-items: center;
+    }
+
+    #dishes .dish,.dish2,.dish3,.dish-title, .descricao1, .descricao2, .descricao3 {
+        text-align: center;
+        margin-left: 0;
+
+    }
+
+
+
+    #dishes .dish,.dish2,.dish3 {
+        margin-top: 10%;
+        width: 400px;
+    }
+
+    #dishes .dish-title {
+        padding: 0;
+    }
+
+
+
+    #dishes img{
+    display: none;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .dish {
+        width: 100%;
+    }
+
+    #menu .section.subtitle {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-widht: 600px) {
+}
+
+#time {
+    min-height: 100vh;
+}
+
+#dishes{
+    display: inline-block;
+    border-color:5px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.dish, .dish2, .dish3 {
+    display: flex;
+    align-items: center;
+    height: 350px;
+    text-align: center;
+    border-radius: 52px;
+    margin-top: 10%;
+    justify-content: center;
+    width: 1200px;
+}
+
+.dish {
+    background-color: #04a3e4;
+}
+.dish2 {
+    background-color: #f57710;
+}
+.dish3 {
+    background-color: #90d270;
+}   
+
+#dishes img {
+    margin-left: 255px;
+}
+
+
+.posicao {
+    padding: 20px;
+}
+
+.horario1 {
+    width: 500px;
+    padding: 15px;
+    border-radius: 52px;
+    margin-right: 25px;
+    justify-content: center;
+}
+
+.dish-title{
+    padding: 25px;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.descricao1, .descricao2, .descricao3 {
+    flex-direction: column;
+    font-size: 25px;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.descricao1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.descricao2 {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.descricao3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.redes-sociais {
+
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.redes-sociais a i {
+    border: 1px slid #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    font-size: 26px;
+    transition: 0.3s;
+    color: #ffffff;
+}
+
+.redes-sociais a i:hover {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 1170px) {
+    #dishes {
+        flex-wrap: wrap;
+        justify-content: center;
+        display:flex;
+        align-items: center;
+    }
+
+    #dishes .dish,.dish2,.dish3,.dish-title, .descricao1, .descricao2, .descricao3 {
+        text-align: center;
+        margin-left: 0;
+
+    }
+
+    #dishes .dish,.dish2,.dish3 {
+        margin-top: 10%;
+        width: 100%;
+    }
+
+
+    #dishes .dish-title {
+        padding: 0;
+    }
+
+
+
+    #dishes img{
+    display: none;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .dish {
+        width: 100%;
+    }
+
+    #menu .section.subtitle {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-widht: 600px) {
+    .dish {
+        width: 100%;
+    }
+
+    #menu .section.subtitle {
+        text-align: center;
+    }
+
+}
+
+

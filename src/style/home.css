@@ -1,0 +1,199 @@
+#home{
+    display: flex;
+    min-height: calc(100vh - 91px);
+    position: relative;
+}
+
+#cta{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 2%;
+}
+
+#cta .titulo{
+    font-size: 5rem;
+    color: black;
+}
+
+#cta .titulo span{
+    color: #04a3e4;
+}
+
+#cta .descricao{
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+}
+
+#cta_buttons{
+    display: flex;
+    gap: 24px;
+}
+#cta_buttons a{
+    text-decoration: none;
+    color: #1d1d1d;
+    
+}
+
+#phone_button {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 8px 14px;
+    font-weight: 500;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+#phone_button button{
+    box-shadow: none;
+}
+
+#logo{
+    display: flex;
+    width: 1px;
+    z-index: 2;
+    left: 61%;
+    bottom: 25%;
+    position: absolute;
+}
+
+#logo img {
+    width: 60px;
+    height: 250px;
+}
+    
+
+.corpo {
+    background-color: #04a3e4;
+    width: 50%;
+    height: 90%;
+    position: absolute;
+    border-radius: 40% 30% 0% 30%;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    margin-top: -2%;
+    
+}
+
+#logo1 {
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    right: 40%;
+    width: 60px;
+    height: 250px;
+    bottom: 25%;
+}
+
+#logo2 {
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    right: 40%;
+    width: 60px;
+    height: 250px;
+    bottom: 60%;
+
+}
+#logo3 {
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    right: 15%;
+    width: 60px;
+    height: 250px;
+    bottom: 60%;
+
+}
+#logo4 {
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    right: 15%;
+    width: 60px;
+    height: 250px;
+    bottom: 25%;
+
+}
+
+@media screen and (max-width: 1170px){
+
+    #home{
+        min-height: 100%;
+        padding-top: 0px;
+    }
+
+    #home .titulo{
+        font-size: 4rem;
+    }
+
+    #home .descricao{
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+
+    #logo,
+    #logo2 img,
+    #logo3 img,
+    #logo4 img{
+        display: none;
+    }
+
+
+    #logo,
+    #logo2 img{
+        margin-left: 180px;
+        margin-top: 130px;
+    }
+
+    #logo,
+    #logo3 img{
+        margin-left: 130px;
+        margin-bottom: 100%;
+    }
+
+    #logo,
+    #logo4 img{
+        margin-left: 160px;
+        margin-top: 40px;
+    }
+
+
+
+
+    #logo,#logo1,
+    #home .corpo{
+        display: none;
+    
+    }
+    
+    #cta {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    @media screen and (max-width: 450px) {
+        #phone_button button{
+            display: none;
+        }
+}}
+
+
+@media screen and (min-width: 1920px) {
+    #home .titulo{
+        font-size: 9rem;
+
+    }
+
+    #logo1, #logo2, #logo3, #logo4{
+        width: 100px;
+        height: 400px;
+    }
+}
